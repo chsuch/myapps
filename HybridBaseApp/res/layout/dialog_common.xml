@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/layout_dialog"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27.5dp"
+        android:layout_marginBottom="27.5dp"
+        android:background="@drawable/dialog_round"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/titleArea"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/default_button_background_nor"
+                android:textSize="16dp"
+                android:textStyle="bold" 
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@null"
+                android:text="testTitle" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/default_button_background_nor" />
+        </LinearLayout>
+        <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:layout_weight="1">
+            <TextView
+	            android:id="@+id/dialog_msg"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:minHeight="80dp"
+	            android:gravity="center"
+	            android:background="@null"
+	            android:textSize="13dp" />
+        </ScrollView>
+        <LinearLayout
+            android:id="@+id/dialog_btn_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:background="@null"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="12dp" >
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="취소"
+                android:layout_marginRight="12dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="확인"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

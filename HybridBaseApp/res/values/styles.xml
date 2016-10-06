@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+       <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@android:color/white</item> 
+    </style>
+	<style name="ProgressDialog"> 
+	    <item name="android:windowFrame">@null</item> 
+	    <item name="android:windowBackground">@android:color/transparent</item> 
+	    <item name="android:windowIsFloating">true</item> 
+	    <item name="android:windowContentOverlay">@null</item> 
+	    <item name="android:windowTitleStyle">@null</item> 
+	    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item> 
+	    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item> 
+	    <item name="android:backgroundDimEnabled">false</item> 
+	    <item name="android:background">@android:color/transparent</item> 
+	    <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+	</style>
+	<style name="AppDialogTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+	<style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@string/common_font_type</item>
+        <item name="android:textColor">@color/default_textview</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@string/common_font_type</item>
+        <item name="android:textColor">@color/default_edittext</item>
+        <item name="android:background">@drawable/tv_background</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="RobotoButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">@string/common_font_type</item>
+        <item name="android:textColor">@color/default_button</item>
+        <item name="android:background">@drawable/selector_btn_dialog</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="AppThemeTranslucentNoTitleBar" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+    </style>
+    <style name="DialogTheme" parent="android:Theme.DeviceDefault.Dialog.NoActionBar.MinWidth">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+    </style>
+</resources>

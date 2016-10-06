@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="common_font_type">sans-serif-light</string>
+    <string name="forward_permission_manager">%1$s\n\n권한 승인 후 다시 한번 실행해 주세요\n설정화면으로 이동 하시겠습니까?</string>
+    <string name="can_not_use_network">네트워크에 연결되어 있지 않거나 사용 불가능한 상태 입니다.</string>
+    <string name="noti_permission_photo">사진 촬영을 위한 권한이 필요합니다.</string>
+    <string name="noti_permission_photo_form_gallery">겔러리 사진을 가져오기 위한 권한이 필요합니다.</string>
+    <string name="noti_permission_video">동영상 촬영을 위한 권한이 필요합입니다.</string>
+    <string name="noti_permission_video_from_gallery">겔러리 동영상을 가져오기 위한 권한이 필요합니다.</string>
+    <string name="noti_permission_location">위치정보를 가져오기 위한 권한이 필요합니다.</string>
+    <string name="forward_location_manager">위치정보를 사용 할 수 없습니다.\n설정 화면으로 이동 하시겠습니까?</string>
+
+</resources>
